@@ -16,7 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "de.mari_023.arch.level_keeper.fabric.LevelKeeperFabric"
+    ],
+    "client": [
+      "de.mari_023.arch.level_keeper.fabric.LevelKeeperClient"
     ]
   },
   "depends": {
