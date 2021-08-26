@@ -1,9 +1,8 @@
-package net.examplemod;
+package de.mari_023.arch.level_keeper;
 
 import appeng.block.AEBaseTileBlock;
 import appeng.container.ContainerLocator;
 import appeng.container.ContainerOpener;
-import appeng.container.implementations.DriveContainer;
 import appeng.util.InteractionUtil;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
@@ -26,7 +25,7 @@ public class LevelKeeperBlock extends AEBaseTileBlock<LevelKeeperBlockEntity> {
 
         final LevelKeeperBlockEntity tg = getTileEntity(w, pos);
         if(tg != null) {
-            if(!w.isClientSide()) ContainerOpener.openContainer(DriveContainer.TYPE, p, ContainerLocator.forTileEntity(tg));
+            if(!w.isClientSide()) ContainerOpener.openContainer(LevelKeeperContainer.TYPE, p, ContainerLocator.forTileEntity(tg));
             return InteractionResult.sidedSuccess(w.isClientSide());
         }
         return InteractionResult.PASS;

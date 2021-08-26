@@ -1,4 +1,4 @@
-package net.examplemod;
+package de.mari_023.arch.level_keeper;
 
 import appeng.api.definitions.IBlockDefinition;
 import appeng.bootstrap.FeatureFactory;
@@ -14,7 +14,7 @@ import net.minecraft.world.level.block.Block;
 
 import java.util.function.Supplier;
 
-public class ExampleMod {
+public class LevelKeeper {
     public static final String MOD_ID = "examplemod";
     // Registering a new creative tab
     public static final CreativeModeTab EXAMPLE_TAB = CreativeTabs.create(new ResourceLocation(MOD_ID, "example_tab"), new Supplier<ItemStack>() {

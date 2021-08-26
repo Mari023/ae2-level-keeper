@@ -1,4 +1,4 @@
-package net.examplemod;
+package de.mari_023.arch.level_keeper;
 
 import appeng.tile.grid.AENetworkTileEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;

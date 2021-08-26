@@ -1,4 +1,4 @@
-package net.examplemod;
+package de.mari_023.arch.level_keeper;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import me.shedaniel.architectury.platform.Platform;
