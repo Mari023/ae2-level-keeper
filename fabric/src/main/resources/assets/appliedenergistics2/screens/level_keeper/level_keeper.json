@@ -1,0 +1,15 @@
+{
+  "$schema": "schema.json",
+  "includes": ["../common/common.json", "../common/player_inventory.json"],
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.level_keeper.level_keeper"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  }
+}
