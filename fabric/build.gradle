@@ -16,6 +16,12 @@ dependencies {
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
     // Remove the next line if you don't want to depend on the API
     modApi "me.shedaniel:architectury-fabric:${rootProject.architectury_version}"
+    modApi "appeng:appliedenergistics2-fabric:8.4.0-alpha.2", {
+        exclude group: "FastTransferLib"
+    }
+    modApi("dev.technici4n:FastTransferLib:0.4.2", {
+        exclude group: "dev.technici4n"
+    })
 
     implementation(project(path: ":common")) {
         transitive = false

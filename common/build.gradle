@@ -4,6 +4,12 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     // Remove the next line if you don't want to depend on the API
     modApi "me.shedaniel:architectury:${rootProject.architectury_version}"
+    modApi "appeng:appliedenergistics2-fabric:8.4.0-alpha.2", {
+        exclude group: "FastTransferLib"
+    }
+    modApi("dev.technici4n:FastTransferLib:0.4.2", {
+        exclude group: "dev.technici4n"
+    })
 }
 
 architectury {
