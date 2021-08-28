@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "level_keeper",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ae2 Level Keeper",
+  "description": "Ads a Level Keeper, and a level keeping Terminal",
   "authors": [
-    "Me!"
+    "Mari_023"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Mari023/ae2-level-keeper",
+    "issues": "https://github.com/Mari023/ae2-level-keeper/issues"
   },
-  "license": "Insert License Here",
+  "license": "MIT",
   "icon": "assets/examplemod/icon.png",
   "environment": "*",
   "entrypoints": {

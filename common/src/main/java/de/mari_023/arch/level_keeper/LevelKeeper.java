@@ -15,7 +15,7 @@ import net.minecraft.world.level.block.Block;
 import java.util.function.Supplier;
 
 public class LevelKeeper {
-    public static final String MOD_ID = "examplemod";
+    public static final String MOD_ID = "level_keeper";
     // Registering a new creative tab
     public static final CreativeModeTab EXAMPLE_TAB = CreativeTabs.create(new ResourceLocation(MOD_ID, "example_tab"), new Supplier<ItemStack>() {
         @Override
@@ -25,9 +25,6 @@ public class LevelKeeper {
     });
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(MOD_ID, Registry.BLOCK_REGISTRY);
-    //public static final RegistrySupplier<Block> LEVEL_KEEPER = BLOCKS.register("level_keeper", LevelKeeperBlock::new);
-
-    //public static BlockEntityType<LevelKeeperBlockEntity> LEVEL_KEEPER_BLOCK_ENTITY_TYPE;
     public static IBlockDefinition LEVEL_KEEPER_DEFINITION;
     public static void init() {
         BLOCKS.register();

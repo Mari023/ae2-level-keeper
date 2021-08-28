@@ -1,40 +1,40 @@
 modLoader = "javafml"
 loaderVersion = "[35,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/Mari023/ae2-level-keeper/issues"
+license = "MIT"
 
 [[mods]]
-modId = "examplemod"
+modId = "level_keeper"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "ae2 Level Keeper"
+authors = "Mari_023"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Ads a Level Keeper, and a level keeping Terminal
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.level_keeper]]
 modId = "forge"
 mandatory = true
 versionRange = "[35,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.level_keeper]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.level_keeper]]
 modId = "architectury"
 mandatory = true
 versionRange = "[1.1.55,)"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.level_keeper]]
 modId = "appliedenergistics2"
 mandatory = true
 versionRange = "8.4.0"
